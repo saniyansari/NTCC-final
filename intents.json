@@ -1,0 +1,73 @@
+{"intents": [
+        {"tag": "",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": ["is_there_anything"]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "B.SC_IT",
+         "patterns": ["Bachelor of Information Technology", "IT", "BSc IT"],
+         "responses": ["Bachelors of Information Technology: 3 years course, fees is 45,000 per year"],
+         "context": ["is_there_anything"]
+        },
+        {"tag": "fees",
+         "patterns": ["What is the fees", "may I know fees", "fees", "can you tell me the fees", "tell me fees" ],
+         "responses": ["What fees are you looking for?"],
+         "context": [""]
+        },
+        {"tag": "B.ID",
+         "patterns": ["Bachelors of Interior Design", "Interior Design", "B.ID", "Bachelors of ID", "Interior Designing" ],
+         "responses": ["Bachelors of Interior Design: 4 years course, fees is 40,000"],
+         "context": ["is_there_anything"]
+        },
+        {"tag": "MBA",
+         "patterns": ["I want to know MBA fees", "Masters of Business Administration", "MBA", "Masters of BA", "M. Business Administration" ],
+         "responses": ["Masters of Business Administration: 2 years course, fees is 45,000"],
+         "context": ["is_there_anything"]
+        },
+        {"tag": "is_there_anything",
+         "patterns": ["ok", "fine", "alright"],
+         "responses": ["Is there anything else I can help you with?"],
+         "context": [""]
+        },
+        {"tag": "B.Tech_civil",
+         "patterns": ["Bachelor of Technology (Civil Engineering)", "B.Tech Civil", "Civil Engineering", "B.Tech Civil Engineering", "BT civil engineering" ],
+         "responses": ["Bachelor of Technology (Civil Engineering): 4 years course, fees is 50,000"],
+         "context": [""]
+        },
+        {"tag": "class_times",
+         "patterns": ["How many hours per class", "class duration", "number of classes", "how long is one class", "class timings"],
+         "responses": ["classes run from 9:15 AM to 5 PM in normal days and 9 AM to 3 PM in the month of Ramadan. 1 hour per class during normal times, 40 minutes in month of Ramadan, 5 minutes break between each class"],
+         "context": [""]
+        },
+        {"tag": "Scholarship",
+         "patterns": ["What scholarhips are available", "do you offer scholarships", "scholarships", "tell me scholarships available", "sholarships offered" ],
+         "responses": [" Scholarships offered are merit scholarship: UG scholarship, PG scholarship; means scholarship ; Amity graduate awards, sibling scholarship, Emirati scholarship. visit here for more information: https://amityuniversity.ae/join-amity/scholarships"],
+         "context": [""]
+        },
+        {"tag": "search_hospital_by_params",
+         "patterns": [],
+         "responses": ["Please provide hospital type"],
+         "context": [""]
+        },
+        {"tag": "Alumni",
+         "patterns": ["Benefits of an alumni", "what benefits do we get as an alumni", "what do alumnis get", "alumni"],
+         "responses": ["-Be a part of amity alumni association \n-Gain access to facilities on campus at discounted rates or free of charge.\n-Share your success stories, experiences and connections with AUD Alumni and students.\n-Let us connect you to relevant departments and industry partners.\n-Assist Amity with award winning opportunities.\n-Be heard, share your feedback or recommendations\n-Get involved in programmes and events.\n-Stay connected to friends and your university.\n"],
+         "context": [""]
+        }
+   ]
+}
